@@ -1,13 +1,15 @@
-package pro.sky.hw_2_13.controller;
+package com.example.homeworck213.controller;
 
 import java.util.List;
 import java.util.Map;
+
+import com.example.homeworck213.model.Employee;
+import com.example.homeworck213.service.DepartmentService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import pro.sky.hw_2_13.model.Employee;
-import pro.sky.hw_2_13.service.DepartmentService;
+
 
 @RestController
 @RequestMapping("/department")

@@ -1,4 +1,4 @@
-package pro.sky.hw_2_13.exception;
+package com.example.homeworck213.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

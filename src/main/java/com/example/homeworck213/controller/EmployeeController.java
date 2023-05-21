@@ -1,11 +1,12 @@
-package pro.sky.hw_2_13.controller;
+package com.example.homeworck213.controller;
 
+import com.example.homeworck213.model.Employee;
+import com.example.homeworck213.service.EmployeeService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import pro.sky.hw_2_13.model.Employee;
-import pro.sky.hw_2_13.service.EmployeeService;
+
 
 import java.util.List;
 
