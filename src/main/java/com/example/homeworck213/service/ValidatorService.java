@@ -1,9 +1,10 @@
 package com.example.homeworck213.service;
 
+import com.example.homeworck213.exception.IncorrectNameException;
+import com.example.homeworck213.exception.IncorrectSurnameException;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;
-import pro.sky.hw_2_13.exception.IncorrectNameException;
-import pro.sky.hw_2_13.exception.IncorrectSurnameException;
+
 
 @Service
 public class ValidatorService {
@@ -25,5 +26,4 @@ public class ValidatorService {
         }
         return String.join("-", surnames);
     }
-
 }
